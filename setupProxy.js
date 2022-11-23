@@ -4,7 +4,7 @@ module.exports = function (app) {
     app.use(
         '/api',
         createProxyMiddleware({
-            target: 'http://127.0.0.1:5173',
+            target: 'https://shopping-cart-seven-sigma.vercel.app',
             changeOrigin: true,
             pathRewrite: {
                 "/api": "",
