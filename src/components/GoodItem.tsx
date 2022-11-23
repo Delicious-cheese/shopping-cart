@@ -2,6 +2,8 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import { useShoppingContext } from '../context/ShoppingContext'
 import imgData from '../uilt/getImg'
+import carImg from '../assets/car.png'
+
 
 type GoodItemProps = {
     name: string,
@@ -53,7 +55,7 @@ const GoodItem = ({ name, imgUrl, id, type, limit, price, index }: GoodItemProps
                                 style={{ width: '20px', height: '20px', backgroundColor: '#E6EE9C', position: 'absolute', right: '-10px', bottom: '-4px', boxShadow: '0 0 10px #FFA000' }}
                             >
 
-                                <img height="16" width="16" src="src/assets/car.png" alt="" />
+                                <img height="16" width="16" src={carImg} alt="" />
                             </div>
                         }
 
