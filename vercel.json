@@ -1,16 +1,8 @@
 {
     "rewrites": [
         {
-            "source": "/clothes/(.*)",
-            "destination": "/setupProxy"
-        },
-        {
-            "source": "/electronic",
-            "destination": "/setupProxy"
-        },
-        {
-            "source": "/gift",
-            "destination": "/setupProxy"
+            "source": "/:path*",
+            "destination": "/index.html"
         }
     ]
 }
