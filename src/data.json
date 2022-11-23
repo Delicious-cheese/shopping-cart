@@ -1,0 +1,113 @@
+{
+    "clothes": [
+        {
+            "id": 1,
+            "name": "卫衣外套",
+            "price": 174,
+            "imgUrl": "/src/assets/clothes/c1.png",
+            "limit": 3
+        },
+        {
+            "id": 2,
+            "name": "羽绒服",
+            "price": 688,
+            "imgUrl": "/src/assets/clothes/c2.png",
+            "limit": 1
+        },
+        {
+            "id": 3,
+            "name": "套头外套",
+            "price": 383,
+            "imgUrl": "/src/assets/clothes/c3.png",
+            "limit": 3
+        },
+        {
+            "id": 4,
+            "name": "毛衣",
+            "price": 209,
+            "imgUrl": "/src/assets/clothes/c4.png",
+            "limit": 1
+        },
+        {
+            "id": 5,
+            "name": "保暖裤",
+            "price": 89,
+            "imgUrl": "/src/assets/clothes/c5.png",
+            "limit": 2
+        },
+        {
+            "id": 6,
+            "name": "加绒卫裤",
+            "price": 179,
+            "imgUrl": "/src/assets/clothes/c6.png",
+            "limit": 2
+        },
+        {
+            "id": 7,
+            "name": "牛仔裤",
+            "price": 332,
+            "imgUrl": "/src/assets/clothes/c7.png",
+            "limit": 1
+        }
+    ],
+    "gift": [
+        {
+            "id": 8,
+            "name": "保温杯",
+            "price": 59,
+            "imgUrl": "/src/assets/gift/g1.png",
+            "limit": 2
+        },
+        {
+            "id": 9,
+            "name": "咖啡",
+            "price": 68,
+            "imgUrl": "/src/assets/gift/g2.png",
+            "limit": 3
+        },
+        {
+            "id": 10,
+            "name": "抱枕",
+            "price": 60,
+            "imgUrl": "/src/assets/gift/g3.png",
+            "limit": 5
+        },
+        {
+            "id": 11,
+            "name": "懒人沙发",
+            "price": 279,
+            "imgUrl": "/src/assets/gift/g4.png",
+            "limit": 1
+        }
+    ],
+    "electronic": [
+        {
+            "id": 12,
+            "name": "平板",
+            "price": 4999,
+            "imgUrl": "/src/assets/epic/e1.png",
+            "limit": 1
+        },
+        {
+            "id": 13,
+            "name": "手机",
+            "price": 1999,
+            "imgUrl": "/src/assets/epic/e2.png",
+            "limit": 2
+        },
+        {
+            "id": 14,
+            "name": "相机",
+            "price": 3298,
+            "imgUrl": "/src/assets/epic/e3.png",
+            "limit": 2
+        },
+        {
+            "id": 15,
+            "name": "吹风机",
+            "price": 699,
+            "imgUrl": "/src/assets/epic/e4.png",
+            "limit": 3
+        }
+    ]
+}
